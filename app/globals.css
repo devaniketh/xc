@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500;600&family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
 
 @import "tailwindcss";
 
@@ -39,4 +41,26 @@ body {
 
 .font-robotoMono {
   font-family: "Roboto Mono", monospace;
+}
+
+.xapple-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  background: linear-gradient(90deg, #CCD1E9 0%, #CCD1E9 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.9;
+}
+
+.meet-text {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 119%;
+  letter-spacing: 0%;
+  color: #94A3B8;
+  opacity: 1;
 }
