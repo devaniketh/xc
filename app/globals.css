@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500;600&family=Roboto+Mono:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@400;700&display=swap');
 
 @import "tailwindcss";
 
@@ -64,3 +65,7 @@ body {
   color: #94A3B8;
   opacity: 1;
 }
+.font-museo {
+  font-family: 'MuseoModerno', sans-serif;
+}
+
